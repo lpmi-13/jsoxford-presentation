@@ -1,0 +1,30 @@
+.baron {
+	margin-left: 0;
+	font-size: 2em;
+	height: 50%;
+	width: 60%;
+}
+
+.baron h1 {
+	color: black;
+}
+
+.top-third {
+	height: 20%;
+}
+
+.mid-third {
+	height: 20%;
+}
+
+.bottom-third {
+	height: 60%;
+}
+
+html.dim .fragment {
+   -webkit-filter: blur(4px) saturate(.5) brightness(.8);
+   -moz-filter: blur(4px) saturate(.7) brightness(.9);
+   -o-filter: blur(4px) saturate(.7) brightness(.9);
+   -ms-filter: blur(4px) saturate(.7) brightness(.9);
+   filter: blur(4px) saturate(.7) brightness(.9);
+}
